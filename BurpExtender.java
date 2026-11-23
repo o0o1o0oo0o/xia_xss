@@ -89,7 +89,7 @@ public class BurpExtender extends AbstractTableModel
         implements IBurpExtender, ITab, IHttpListener, IContextMenuFactory, IMessageEditorController {
 
     private static final String EXT_NAME = "xia XSS";
-    private static final String VERSION = "2.0";
+    private static final String VERSION = "1.0";
     /** 右键 "Send to xia XSS" 的自定义来源标记，与 xia SQL 一样复用 1024 */
     private static final int FORCE_SCAN = 1024;
     private static final String CONFIG_FILE_DEFAULT = "xia_XSS_config.ini";
